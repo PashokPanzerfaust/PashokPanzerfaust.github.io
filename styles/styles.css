@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=PT Sans Caption&display=swap');
+
+body {
+    font-family: PT Sans Caption, serif;
+}
+.colorbg {
+    background-color: rgb(222, 255, 224);
+}
+
+.bg-color {
+    background-color: rgb(202, 252, 195);
+}
+
+.d-flex {
+    height: 50px;
+    width: 400px;
+}
+
+.navaclass:hover {
+   color: rgb(0, 0, 0);
+}
+
+.col-lg-2.col-md-6 {
+    margin: 1em;
+}
+
+.btn.btn-primary {
+    background-color: rgb(72, 204, 65);
+    border-color: rgb(72, 204, 65);
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(50, 139, 45);
+    border-color: rgb(50, 139, 45);
+}
+
+.card img {
+    height: 200px;
+}
+
+.card.object-fit img {
+    max-width: 100%; /* Максимальная ширина картинки */
+    min-height: 100%; /* Минимальная высота картинки */
+    object-fit: cover; /* Всю, выше указанную, облась заполнить картинкой */
+}
+
+.card {
+    background: linear-gradient(183deg, rgba(174, 242, 174, 0.53) 29.9%, rgb(166, 255, 166) 100%);
+}
+
+.size {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: rgb(222, 255, 224);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(150, 245, 156);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

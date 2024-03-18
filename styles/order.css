@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=PT Sans Caption&display=swap');
+
+body {
+    font-family: PT Sans Caption, serif;
+}
+.colorbg {
+    background-color: rgb(222, 255, 224);
+}
+
+.bg-color {
+    background-color: rgb(202, 252, 195);
+}
+
+.card-header {
+    font-size: 1.3em;
+}
+
+.dropdown-menu {
+    background-color: rgb(222, 255, 224);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(150, 245, 156);
+}
+
+.card {
+    background: linear-gradient(183deg, rgba(174, 242, 174, 0.53) 29.9%, rgb(166, 255, 166) 100%);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.rounded.float-end {
+    height: 70px;
+}
+
+.d-flex {
+    height: 50px;
+    width: 400px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.help a,
+.root a,
+.about a,
+.messanger a {
+    text-decoration: none;
+    color: black;
+}
+
+.help a:hover,
+.root a:hover,
+.about a:hover,
+.messanger a:hover {
+    text-decoration: none;
+    color: rgb(38, 125, 44);
+}
